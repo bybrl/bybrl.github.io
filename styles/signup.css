@@ -1,0 +1,19 @@
+.signupbutton {
+    border: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgb(0, 81, 255);
+    color: white;
+    border-radius: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 120px;
+    height: 80px;
+    margin-top: 60px;
+    margin-left:43px;
+}
+input::placeholder {
+    font-family: inherit;
+}
