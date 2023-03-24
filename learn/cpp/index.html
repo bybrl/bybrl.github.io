@@ -1,1 +1,39 @@
-<iframe src="cpp1.cpp" width="500" height="300" frameBorder="0" style="background-color: white;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn C++ | NotMizzel</title>
+    <div class="top-bar all">
+        <a href="../blog/" style = "position:absolute; left:95px;  font-size: 18px;">Blog</a>
+        <a href="../projects/"style="font-size: 18px;">Projects</a>
+        <a href="../signup/" style="font-size: 18px; position: absolute; left: 150px;">Sign Up</a>
+        <a href="#" style="font-size: 18px; position: absolute; left: 230px;">Learn</a>
+        <a href="/"><img src="../favicon.ico" href="index.html"style="width: 30px; margin-left: -50px;"></a>
+        </div>
+</head>
+<body>
+    <h1 style="font-family: 'Ubuntu';">Learn C++ | Getting Started</h1>
+    <p style="font-family: inherit;">To start, let's install a compiler. Common options are: G++, Microsoft Visual Studio, and MinGW.<br>
+    to install G++ in Ubuntu, use this command: <br>
+    <code>sudo apt install g++</code>
+    This command installs the g++ compiler on Ubuntu. To install MSVC, you can go to the <a href="https://visualstudio.microsoft.com/">Official download page.</a><br>
+    To install G++ on a Windows system, go to the MinGW website and download the latest version for your architecture. <br>In the installer, select the G++ options. <br>
+    Congratulations, you now have a compiler.
+    After you install a compiler, you can use this script in any text editor with the file extension cpp: <br>
+    <iframe src="cpp1.cpp" width="500" height="300" frameBorder="0" style="color: white;">
+    After making the script, you can now compile the code. You must use the terminal to compile using this command: <br>
+    <code>g++ script.cpp</code> 
+    After compiling the code, you can now run the code. On Windows:
+    <code>.\a.exe</code>
+    On Linux:
+    <code>./a.out</code>
+    You can also use the flag -o to specify the filename when it is compiled. Example:
+    <code>g++ code.cpp -o thisismyapp</code>
+
+    </p>
+</body>
+</html>
